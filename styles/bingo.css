@@ -1,0 +1,60 @@
+body {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+}
+
+#bingo {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  margin-left: 0;
+  margin-top: 0;
+  max-width: 600px;
+  min-width: 500px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 200px;
+  min-height: 140px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.cell-line {
+  height: 1px;
+  border-top: solid 2px;
+  padding-bottom: 10px;
+}
+
+.cell-answer {
+  font-weight: 300;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.b-left {
+  border-left: solid 1px;
+}
+
+.b-right {
+  border-right: solid 1px;
+}
+
+.b-top {
+  border-top: solid 1px;
+}
+
+.b-bottom {
+  border-bottom: solid 1px;
+}
+
+.b-corner {
+  border: solid 1px;
+}
